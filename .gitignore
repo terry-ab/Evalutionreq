@@ -1,0 +1,22 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Virtual environment
+venv/
+env/
+.direnv/
+
+# IDE
+.vscode/
+.idea/
+
+# Celery
+celerybeat-schedule
+
+# Redis
+dump.rdb
