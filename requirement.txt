@@ -1,0 +1,23 @@
+# Django and Database
+django>=4.2
+psycopg2>=2.9
+djangorestframework
+
+# Celery & Redis
+celery>=5.3
+redis>=5.0
+
+
+# Resend API for Email Notifications
+requests>=2.31
+Resend
+
+# Sentiment Analysis
+textblob>=0.17
+
+# Optional: If using Django Celery Results for tracking
+django-celery-results>=2.5
+django-celery-beat>=2.5
+
+# Misc
+python-dotenv>=1.0
